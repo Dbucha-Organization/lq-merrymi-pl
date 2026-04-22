@@ -565,9 +565,11 @@ function renderProducts() {
         const rating = getProductRating(product);
         return `
       <article class="variant-card" style="--delay: ${index * 45}ms;">
-        <span class="variant-flavor-badge variant-flavor-badge--${badge.key}">${badge.label}</span>
-        <span class="variant-rating-badge">⭐ ${rating.score} · ${rating.ratingsCount}</span>
-        <img src="${product.image}" alt="MerryMi Liquidy ${product.name}" loading="lazy" />
+        <div class="variant-media">
+          <span class="variant-flavor-badge variant-flavor-badge--${badge.key}">${badge.label}</span>
+          <span class="variant-rating-badge">⭐ ${rating.score} · ${rating.ratingsCount}</span>
+          <img src="${product.image}" alt="MerryMi Liquidy ${product.name}" loading="lazy" />
+        </div>
         <div class="variant-card-body">
           <h3><span class="variant-emoji">${getProductEmoji(product)}</span>${product.name}</h3>
           <div class="variant-actions">
