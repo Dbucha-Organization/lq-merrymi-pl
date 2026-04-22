@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MerryMi Liquidy - olejki do e papierosa, sól nikotynowa, vape</title>
+  <meta name="description"
+    content="MerryMi Liquidy: olejki do e papierosa, olejek do e papierosa, sól nikotynowa, sole nikotynowe i vape. Owocowe smaki dla pełnoletnich użytkowników." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+</head>
+
+<body data-theme="light">
+  <div class="bg-glow bg-glow--one"></div>
+  <div class="bg-glow bg-glow--two"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="MerryMi - strona główna">
+      <img src="logo.png" alt="MerryMi logo" />
+    </a>
+    <div class="topbar-controls">
+      <button class="menu-toggle" type="button" aria-label="Otwórz menu" aria-expanded="false"
+        aria-controls="headerPanel">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="header-panel" id="headerPanel">
+      <button class="menu-close" type="button" aria-label="Zamknij menu">✕</button>
+      <nav class="nav" aria-label="Nawigacja główna">
+        <a href="#home">Start</a>
+        <a href="#smaki">Smaki</a>
+        <a href="#produkty">Produkty</a>
+        <a href="#faq">FAQ</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      <a class="nav-buy-hurt" href="https://www.dbucha.com/products/liquidy-merrymi-salts-30ml-sole-nikotynowe"
+        target="_blank" rel="noopener noreferrer">Kup Hurt</a>
+      <label class="theme-switch" aria-label="Przełącz motyw jasny i ciemny">
+        <input type="checkbox" class="theme-switch__checkbox">
+        <div class="theme-switch__container">
+          <div class="theme-switch__clouds"></div>
+          <div class="theme-switch__stars-container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 55" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M135.831 3.00688C135.055 3.85027 134.111 4.29946 133 4.35447C134.111 4.40947 135.055 4.85867 135.831 5.71123C136.607 6.55462 136.996 7.56303 136.996 8.72727C136.996 7.95722 137.172 7.25134 137.525 6.59129C137.886 5.93124 138.372 5.39954 138.98 5.00535C139.598 4.60199 140.268 4.39114 141 4.35447C139.88 4.2903 138.936 3.85027 138.16 3.00688C137.384 2.16348 136.996 1.16425 136.996 0C136.996 1.16425 136.607 2.16348 135.831 3.00688ZM31 23.3545C32.1114 23.2995 33.0551 22.8503 33.8313 22.0069C34.6075 21.1635 34.9956 20.1642 34.9956 19C34.9956 20.1642 35.3837 21.1635 36.1599 22.0069C36.9361 22.8503 37.8798 23.2903 39 23.3545C38.2679 23.3911 37.5976 23.602 36.9802 24.0053C36.3716 24.3995 35.8864 24.9312 35.5248 25.5913C35.172 26.2513 34.9956 26.9572 34.9956 27.7273C34.9956 26.563 34.6075 25.5546 33.8313 24.7112C33.0551 23.8587 32.1114 23.4095 31 23.3545ZM0 36.3545C1.11136 36.2995 2.05513 35.8503 2.83131 35.0069C3.6075 34.1635 3.99559 33.1642 3.99559 32C3.99559 33.1642 4.38368 34.1635 5.15987 35.0069C5.93605 35.8503 6.87982 36.2903 8 36.3545C7.26792 36.3911 6.59757 36.602 5.98015 37.0053C5.37155 37.3995 4.88644 37.9312 4.52481 38.5913C4.172 39.2513 3.99559 39.9572 3.99559 40.7273C3.99559 39.563 3.6075 38.5546 2.83131 37.7112C2.05513 36.8587 1.11136 36.4095 0 36.3545ZM56.8313 24.0069C56.0551 24.8503 55.1114 25.2995 54 25.3545C55.1114 25.4095 56.0551 25.8587 56.8313 26.7112C57.6075 27.5546 57.9956 28.563 57.9956 29.7273C57.9956 28.9572 58.172 28.2513 58.5248 27.5913C58.8864 26.9312 59.3716 26.3995 59.9802 26.0053C60.5976 25.602 61.2679 25.3911 62 25.3545C60.8798 25.2903 59.9361 24.8503 59.1599 24.0069C58.3837 23.1635 57.9956 22.1642 57.9956 21C57.9956 22.1642 57.6075 23.1635 56.8313 24.0069ZM81 25.3545C82.1114 25.2995 83.0551 24.8503 83.8313 24.0069C84.6075 23.1635 84.9956 22.1642 84.9956 21C84.9956 22.1642 85.3837 23.1635 86.1599 24.0069C86.9361 24.8503 87.8798 25.2903 89 25.3545C88.2679 25.3911 87.5976 25.602 86.9802 26.0053C86.3716 26.3995 85.8864 26.9312 85.5248 27.5913C85.172 28.2513 84.9956 28.9572 84.9956 29.7273C84.9956 28.563 84.6075 27.5546 83.8313 26.7112C83.0551 25.8587 82.1114 25.4095 81 25.3545ZM136 36.3545C137.111 36.2995 138.055 35.8503 138.831 35.0069C139.607 34.1635 139.996 33.1642 139.996 32C139.996 33.1642 140.384 34.1635 141.16 35.0069C141.936 35.8503 142.88 36.2903 144 36.3545C143.268 36.3911 142.598 36.602 141.98 37.0053C141.372 37.3995 140.886 37.9312 140.525 38.5913C140.172 39.2513 139.996 39.9572 139.996 40.7273C139.996 39.563 139.607 38.5546 138.831 37.7112C138.055 36.8587 137.111 36.4095 136 36.3545ZM101.831 49.0069C101.055 49.8503 100.111 50.2995 99 50.3545C100.111 50.4095 101.055 50.8587 101.831 51.7112C102.607 52.5546 102.996 53.563 102.996 54.7273C102.996 53.9572 103.172 53.2513 103.525 52.5913C103.886 51.9312 104.372 51.3995 104.98 51.0053C105.598 50.602 106.268 50.3911 107 50.3545C105.88 50.2903 104.936 49.8503 104.16 49.0069C103.384 48.1635 102.996 47.1642 102.996 46C102.996 47.1642 102.607 48.1635 101.831 49.0069Z"
+                fill="currentColor"></path>
+            </svg>
+          </div>
+          <div class="theme-switch__circle-container">
+            <div class="theme-switch__sun-moon-container">
+              <div class="theme-switch__moon">
+                <div class="theme-switch__spot"></div>
+                <div class="theme-switch__spot"></div>
+                <div class="theme-switch__spot"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </label>
+    </div>
+  </header>
+  <button class="menu-backdrop" type="button" aria-label="Zamknij menu"></button>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <p class="kicker">Nowa energia smaku</p>
+        <h1>MerryMi <span>Liquidy</span></h1>
+        <p>
+          Odkryj olejki do e papierosa stworzone dla osób, które cenią jakość, świeżość i
+          nowoczesny styl. MerryMi to dopracowany olejek do e papierosa dla świadomych użytkowników.
+        </p>
+        <div class="hero-actions">
+          <a class="cta" href="#produkty">Kup Liquidy MerryMi</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="ring ring--a"></div>
+        <div class="ring ring--b"></div>
+        <img class="hero-product-image" src="images/merrymi-lq-olejki-do-epapierosa.png"
+          alt="MerryMi Liquidy - olejek do e papierosa" />
+        <div class="fruit fruit--one">🍋CYTRUS</div>
+        <div class="fruit fruit--two">🍓JAGODOWE</div>
+        <div class="fruit fruit--three">🍇WINOGRANO</div>
+      </div>
+    </section>
+
+
+
+    <section id="smaki" class="flavors">
+      <div class="section-head">
+        <p class="kicker">Najpopularniejsze kompozycje</p>
+        <h2>Wybierz smak, który pasuje do Twojego dnia</h2>
+      </div>
+
+      <div class="flavor-tabs" id="flavorTabs" role="tablist" aria-label="Smaki"></div>
+      <p class="flavor-note" id="flavorNote">Wszystkie warianty smakowe MerryMi Liquidy.</p>
+    </section>
+
+    <section id="produkty" class="products ">
+      <div class="section-head">
+        <p class="kicker">MerryMi Liquidy</p>
+        <h2>Poznaj dostępne warianty</h2>
+      </div>
+
+      <div class="variant-grid" id="variantGrid"></div>
+    </section>
+    <section class="about-merrymi">
+      <div class="about-merrymi-copy">
+        <p class="kicker">MerryMi Liquidyy</p>
+        <h2>Nowoczesne olejki do e papierosa o intensywnym owocowym charakterze</h2>
+        <p>
+          MerryMi Liquidyy to linia smaków zaprojektowana dla osób, które szukają wyraźnego aromatu,
+          gładkiego profilu i wysokiej jakości przy codziennym użytkowaniu vape.
+        </p>
+        <p>
+          W ofercie znajdziesz sól nikotynowa i sole nikotynowe w wielu profilach smakowych.
+          Każdy wariant łączy dopracowaną kompozycję owoców z nowoczesnym stylem marki MerryMi.
+        </p>
+      </div>
+      <div class="about-merrymi-media">
+        <img src="images/merrymi-lq.png" alt="MerryMi Liquidyy - kolekcja smaków" />
+      </div>
+    </section>
+    <section id="opinie" class="ratings-section">
+      <div class="section-head">
+        <p class="kicker">Opinie klientów</p>
+        <h2>Co mówią o smakach MerryMi Liquidyy</h2>
+      </div>
+      <div class="ratings-marquee">
+        <div class="ratings-row ratings-row--top">
+          <div class="ratings-track" id="ratingsTrackTop"></div>
+        </div>
+        <div class="ratings-row ratings-row--bottom">
+          <div class="ratings-track" id="ratingsTrackBottom"></div>
+        </div>
+      </div>
+    </section>
+    <section class="video-banner" aria-label="MerryMi Liquidy promo">
+      <video class="video-banner-media" autoplay muted loop playsinline preload="metadata"
+        src="https://cdn.shopify.com/videos/c/o/v/6ef3aed11104435281b4250a6dbf830e.mp4"></video>
+      <div class="video-banner-overlay"></div>
+      <div class="video-banner-content">
+        <p class="kicker">MerryMi Liquidy</p>
+        <h2>Intensywny smak i gładkie doznania każdego dnia</h2>
+        <p>
+          Nasze e-liquidy powstają z wyselekcjonowanych aromatów, aby zapewnić stabilny smak,
+          czysty profil i przyjemną chmurę podczas codziennego korzystania.
+        </p>
+        <a class="cta" href="#produkty">Kup Teraz</a>
+      </div>
+    </section>
+    <section id="faq" class="faq-section">
+      <div class="section-head">
+        <p class="kicker">FAQ</p>
+        <h2>Najczęstsze pytania o MerryMi Liquidyy 30ml</h2>
+      </div>
+      <div class="faq-list">
+        <article class="faq-item is-open">
+          <button class="faq-trigger" type="button" aria-expanded="true">
+            Dla kogo są przeznaczone MerryMi Liquidyy 30ml?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-content">
+            <p>
+              Produkt jest przeznaczony wyłącznie dla pełnoletnich użytkowników e-papierosów, którzy
+              szukają wyrazistego smaku i wygodnej formuły soli nikotynowej.
+            </p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-trigger" type="button" aria-expanded="false">
+            Jaką pojemność ma butelka?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-content">
+            <p>Każdy wariant MerryMi ma pojemność 30 ml, co zapewnia wygodne codzienne użytkowanie.</p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-trigger" type="button" aria-expanded="false">
+            Czy liquid pasuje do każdego urządzenia?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-content">
+            <p>
+              Najlepiej stosować go w kompatybilnych urządzeniach przeznaczonych do liquidów z solą
+              nikotynową, zgodnie z zaleceniami producenta urządzenia.
+            </p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-trigger" type="button" aria-expanded="false">
+            Jak przechowywać liquid, żeby zachować jakość?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-content">
+            <p>
+              Przechowuj butelkę w chłodnym i zacienionym miejscu, z dala od źródeł ciepła oraz poza
+              zasięgiem dzieci.
+            </p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-trigger" type="button" aria-expanded="false">
+            Czym różni się olejek do e papierosa od klasycznego liquidu?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-content">
+            <p>
+              Olejek do e papierosa to gotowy płyn aromatyczny do urządzeń vape. Warianty mogą różnić się
+              profilem smaku i rodzajem nikotyny, np. sól nikotynowa.
+            </p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-trigger" type="button" aria-expanded="false">
+            Czy MerryMi oferuje sole nikotynowe?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-content">
+            <p>
+              Tak, w ofercie MerryMi dostępna jest sól nikotynowa oraz sole nikotynowe w różnych wariantach
+              smakowych, dopasowanych do codziennego użytkowania.
+            </p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-trigger" type="button" aria-expanded="false">
+            Jak dobrać smak MerryMi na start?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-content">
+            <p>
+              Na początek warto wybrać profile uniwersalne: cytrusowy, jagodowy lub brzoskwiniowy. Dzięki temu
+              łatwiej znaleźć kierunek, który najlepiej pasuje do Twoich preferencji vape.
+            </p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-trigger" type="button" aria-expanded="false">
+            Czy olejki do e papierosa MerryMi mają stałą jakość smaku?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-content">
+            <p>
+              Tak, receptury MerryMi są przygotowane tak, aby zapewnić spójny profil aromatyczny i powtarzalność
+              smaku w każdej partii.
+            </p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-trigger" type="button" aria-expanded="false">
+            Które smaki są najczęściej wybierane?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-content">
+            <p>
+              Największą popularnością cieszą się warianty jagodowe, cytrusowe i tropikalne. To smaki, które
+              łączą świeżość, wyrazistość i wysoki komfort codziennego użytkowania.
+            </p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-trigger" type="button" aria-expanded="false">
+            Czy mogę zamówić większą ilość do sklepu?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-content">
+            <p>
+              Tak, dostępna jest oferta hurtowa. W sekcji współpracy znajdziesz przycisk, który przekieruje Cię
+              do partnera sprzedażowego dbucha.
+            </p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-trigger" type="button" aria-expanded="false">
+            Czy MerryMi to dobra opcja dla osób, które chcą zmieniać smaki?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-content">
+            <p>
+              Zdecydowanie tak. Linia MerryMi obejmuje szeroką paletę kompozycji owocowych, co ułatwia rotację
+              smaków bez utraty jakości i intensywności aromatu.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="kontakt" class="cta-band ">
+      <h2>Chcesz ofertę hurtową lub współpracę?</h2>
+      <p>Napisz do nas i otrzymaj indywidualne warunki dla Twojego sklepu.</p>
+      <a class="cta-band-btn" href="https://www.dbucha.com/products/liquidy-merrymi-salts-30ml-sole-nikotynowe"
+        target="_blank" rel="noopener noreferrer">Zamów Teraz </a>
+    </section>
+  </main>
+  <div class="cart-sheet-backdrop" id="cartSheetBackdrop"></div>
+  <aside class="cart-sheet" id="cartSheet" aria-hidden="true" aria-labelledby="cartSheetTitle">
+    <div class="cart-sheet-header">
+      <h3 id="cartSheetTitle">Twój wybór MerryMi</h3>
+      <button class="cart-sheet-close" type="button" aria-label="Zamknij panel koszyka">✕</button>
+    </div>
+    <div class="cart-sheet-body">
+      <div class="cart-sheet-top">
+        <img id="cartSheetImage" src="" alt="" />
+        <div>
+          <span class="cart-sheet-flavor" id="cartSheetFlavor">Owocowy</span>
+          <h4 id="cartSheetProductName">MerryMi Liquidy</h4>
+          <p id="cartSheetTags">Smak</p>
+        </div>
+      </div>
+      <div class="cart-sheet-qty">
+        <p>📦 Ilość produktu</p>
+        <div class="qty-controls">
+          <button class="qty-btn" id="qtyMinus" type="button" aria-label="Zmniejsz ilość">−</button>
+          <input id="qtyInput" type="number" min="1" value="1" />
+          <button class="qty-btn" id="qtyPlus" type="button" aria-label="Zwiększ ilość">+</button>
+        </div>
+      </div>
+      <div class="cart-sheet-info">
+        <p id="cartSheetFlavorInfo">
+          Wybrany smak MerryMi zapewnia intensywny profil aromatyczny i czyste doznania przy każdym
+          użyciu.
+        </p>
+        <p>
+          💜 MerryMi to marka e-liquidów tworzonych dla pełnoletnich użytkowników, stawiająca na
+          jakość składników, stabilność smaku i nowoczesny charakter.
+        </p>
+      </div>
+      <div class="cart-sheet-faq">
+        <h5>❓ FAQ o smaku i liquidach</h5>
+        <div id="cartSheetFaqList" class="cart-sheet-faq-list"></div>
+      </div>
+    </div>
+    <div class="cart-sheet-footer">
+      <a class="cart-sheet-cta" href="https://www.dbucha.com/products/liquidy-merrymi-salts-30ml-sole-nikotynowe"
+        target="_blank" rel="noopener noreferrer">
+        Zamów Teraz
+      </a>
+    </div>
+  </aside>
+  <footer class="site-footer" aria-label="Stopka strony MerryMi Liquidyy">
+    <div class="footer-main">
+      <section class="footer-brand">
+        <img src="logo.png" alt="MerryMi logo" class="footer-logo" />
+        <h3>MerryMi Liquidyy 30ml</h3>
+        <p>
+          MerryMi Liquidyy to owocowe e-liquidy premium dla pełnoletnich użytkowników. Poznaj
+          najpopularniejsze smaki: cytrusowe, jagodowe, tropikalne i miętowe. Nasz olejek do e papierosa
+          i olejki do e papierosa to sprawdzona jakość vape.
+        </p>
+      </section>
+
+      <nav class="footer-col" aria-label="Szybka nawigacja">
+        <h4>Nawigacja</h4>
+        <ul>
+          <li><a href="#home">Strona główna</a></li>
+          <li><a href="#smaki">Smaki</a></li>
+          <li><a href="#produkty">Produkty</a></li>
+          <li><a href="#opinie">Opinie</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <section class="footer-col" aria-label="Kategorie smaków">
+        <h4>Popularne smaki</h4>
+        <ul>
+          <li><a class="footer-flavor-link" href="#smaki" data-category="citrus">Cytrusowy</a></li>
+          <li><a class="footer-flavor-link" href="#smaki" data-category="berries">Jagodowy</a></li>
+          <li><a class="footer-flavor-link" href="#smaki" data-category="grape">Winogronowy</a></li>
+          <li><a class="footer-flavor-link" href="#smaki" data-category="peach">Brzoskwiniowy</a></li>
+          <li><a class="footer-flavor-link" href="#smaki" data-category="tropical">Egzotyczny</a></li>
+        </ul>
+      </section>
+
+      <section class="footer-col" aria-label="Informacje zakupowe">
+        <h4>Zakupy i współpraca</h4>
+        <ul>
+          <li><a href="https://www.dbucha.com/products/liquidy-merrymi-salts-30ml-sole-nikotynowe" target="_blank"
+              rel="noopener noreferrer">Oferta hurtowa</a></li>
+          <li>Produkt 18+</li>
+          <li>Wyłącznie dla dorosłych</li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 lq-merrymi.pl - Wszelkie prawa zastrzeżone.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
